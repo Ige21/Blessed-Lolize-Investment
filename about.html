@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="about.css">
+    <title>Blessed Lolize Investment</title>
+</head>
+<body>
+    <!-- Navigation  -->
+    <header class="navbar">
+        <div class="nav-container">
+
+            <!-- logo -->
+            <div class="logo">
+                <img src="img/blessed-logo.png" alt="blessed lolize Investment">
+                <span>Blessed Lolize Investment</span>
+            </div>
+
+            <!-- Navigation links -->
+            <nav class="nav-links" id="navLinks">
+                <a href="home.html">Home</a>
+                <a href="about.html" class="active">About & Services</a>
+                <a href="product.html">Product</a>
+                <a href="team.html">Team</a>
+            </nav>
+
+            <!-- Contact button -->
+            <div class="contact-btn">
+                <a href="contact.html" class="cont-btn">Contact Us</a>
+                <span class="arrow">
+                    <!-- <i class="fa-solid fa-arrow-right-long"></i> -->
+                    <img src="img/arrow-top-right.png" alt="">
+                </span>
+            </div>
+            
+
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+
+            <!-- Mobile menu  -->
+            <div id="mobileMenu" class="mobile-menu">
+                <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+
+                <nav class="mobile-nav">
+                    <ul class="mobile-menu-links">
+                        <li>
+                            <span class="icon"><img src="img/home-icon.png" alt=""></span>
+                          <a href="home.html" class="active">Home</a>
+                        </li>
+                        <li>
+                            <span class="icon"><img src="img/about-icon.png" alt=""></span>
+                            <a href="about.html">About & Services</a>
+                        </li>
+                        <li>
+                            <span class="icon"><img src="img/product.png" alt=""></span>
+                            <a href="product.html">Product</a>
+                        </li>
+                        <li>
+                            <span class="icon"><img src="img/team-icon.png" alt=""></span>
+                            <a href="team.html">Team</a>
+                        </li>
+                        <li>
+                            <span class="icon"><img src="img/contact-icon.png" alt=""></span>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- hero -->
+    <section class="products-hero">
+        <div class="products-hero-overlay"></div>
+
+        <div class="products-hero-content">
+            <h1 class="hero-title">About Us & Services</h1>
+        </div>
+    </section>
+
+    <!-- Who we are -->
+    <section class="who-we-are">
+        <div class="container">
+            <h2>Who We Are</h2>
+            <p class="who-text">
+                Blessed Lolize Investment Limited is an integrated real estate, mortgage consulting,
+                and construction solutions company committed to delivering structured, efficient,
+                and people-focused property solutions. We exist to remove uncertainty from property
+                ownership by aligning expertise, process, and quality delivery.
+            </p>
+
+            <div class="slider">
+                <!-- <button class="slider-btn left" id="prevSlide">&#10094;</button> -->
+
+                <div class="slider-image">
+                    <img src="img/about-img.png" alt="Who we are image" id="sliderImage">
+
+                    <!-- <img src="img/product img 5.png" alt="Who we are image" id="sliderImage"> -->
+                </div>
+ 
+               <!-- <button class="slider-btn right" id="nextSlide">&#10095;</button> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission/Vission -->
+    <section class="vision-mission">
+        <div class="vm-container">
+
+            <div class="vm-card">
+                <i class="fa-regular fa-eye"></i>
+                <h3>Our Vision</h3>
+                <p>
+                    <b>Better planet, efficient living and happy people</b>
+                    <br>
+                    <br>
+                    This vision drives our commitment to sustainable development, smarter housing solutions, and improved quality of life.
+                </p>
+
+            </div>
+
+            <div class="vm-card">
+                <i class="fa-regular fa-circle-question"></i>
+                <h3>Our Mission</h3>
+                <p>
+                    <b>Seamless marriage of the 3Ps (People, Process and Product)</b>
+                </p>
+                <p>We intentionally integrate:</p>
+                <span class="check-icon">✔</span><p><b>People</b>- client-focused service and trusted advisory</p>
+                <span class="check-icon">✔</span>
+                <p><b>Process</b>- structured, efficient, and compliant systems</p>
+                <span class="check-icon">✔</span>
+                <p><b>Product</b>- quality real estate, mortgage, and construction solutions</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Our services -->
+    <section class="our-services">
+        <h2 class="section-title">Our Services</h2>
+        <!-- <img src="img/Group.png" alt="" class="underline"> -->
+
+        <div class="services-wrapper">
+
+    
+            <div class="service-row">
+                <div class="service-text">
+                    <h3>Real Estate Solutions</h3>
+                    <p>
+                        We provide access to carefully selected residential and commercial
+                        properties supported by clear documentation and professional guidance.
+                    </p>
+                    <ul>
+                         <li>Property acquisition and sales</li>
+                         <li>Investment property sourcing</li>
+                         <li>Advisory on pricing</li>
+                    </ul>
+                </div>
+
+      <div class="service-image">
+        <img src="img/about-img-1.png" alt="Real Estate Solutions">
+      </div>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="service-row reverse">
+      <div class="service-text">
+        <h3>Mortgage Consulting Services</h3>
+        <p>
+          We simplify mortgage financing by guiding clients through eligibility,
+          affordability, and approval processes.
+        </p>
+        <ul>
+          <li>Mortgage advisory</li>
+          <li>Eligibility assessment</li>
+          <li>Documentation support</li>
+          <li>Liaison with mortgage institutions</li>
+        </ul>
+      </div>
+
+      <div class="service-image">
+        <img src="img/about-img-2.png" alt="Mortgage Consulting">
+      </div>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="service-row">
+      <div class="service-text">
+        <h3>Construction & Financing</h3>
+        <p>
+          We support clients in building or developing quality construction
+          projects through expert planning and financing advisory.
+        </p>
+        <ul>
+          <li>Residential & commercial construction</li>
+          <li>Project coordination</li>
+          <li>Construction financing advisory</li>
+          <li>Quality and compliance support</li>
+        </ul>
+      </div>
+
+      <div class="service-image">
+        <img src="img/about-img-3.png" alt="Construction Financing">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+   <!-- Milestone  -->
+<section class="milestone">
+  <h2 class="milestone-title">Milestone Of Growth</h2>
+  <p class="milestone-subtitle">
+    A timeline of key achievements that shaped our company’s evolution.
+  </p>
+
+  <div class="timeline">
+
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <span class="timeline-year">2022</span>
+        <h4>Company Founded</h4>
+        <p>
+          Blessed Lolize Investment established with a mission to revolutionize
+          real estate financial services through transparency and client focus.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <div class="timeline-content">
+        <span class="timeline-year">2023</span>
+        <h4>National Expansion</h4>
+        <p>
+          Expanded operations to serve clients nationwide, opening regional
+          offices in major metropolitan areas.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <span class="timeline-year">2024</span>
+        <h4>Industry Recognition</h4>
+        <p>
+          Awarded “Best Real Estate Financial Services Firm”
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <div class="timeline-content">
+        <span class="timeline-year">2025</span>
+        <h4>Digital Transformation</h4>
+        <p>
+          Launched innovative digital platforms enabling seamless online applications
+          and 72-hour processing for qualified clients.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <!-- mortagage solutions -->
+    <section class="mortgage-solutions">
+  <div class="mortgage-overlay">
+    <h2>Specialized Mortgage Solutions</h2>
+
+    <div class="solutions-container">
+
+      <div class="solution-card">
+        <div class="solution-number">1</div>
+        <h4>25% RSA Savings as Equity Contribution</h4>
+        <p>
+          Guidance for eligible contributors to utilize part of their RSA savings as mortgage equity contribution.
+        </p>
+      </div>
+
+      <div class="solution-line"></div>
+
+      <div class="solution-card">
+        <div class="solution-number">2</div>
+        <h4>Morel (Mortgage-Related Real Estate Investment Framework)</h4>
+        <p>
+          Structured real estate investment opportunities backed by sustainable mortgage-linked financing.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <img src="img/blessed-logo.png" alt="blessed lolize Investment">
+                    <h4>Blessed Lolize Investment</h4>
+                </div>
+                <p>Your trusted partner in real estate, mortgage, and construction
+                solutions, helping you achieve sustainable property and investment goals.</p>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/share/1AHeTMi2wQ/"><img src="img/footer-fb.png" alt=""></a>
+                    <a href="https://x.com/BlessedLolize?s=20"><img src="img/footer-x.png" alt=""></a>
+                    <a href="https://www.instagram.com/blessedlolize_investment?igsh=MWNkazAxNXp6ZGx6Mg=="><img src="img/footer-ig.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="about.html">Our Vision & Mission</a></li>
+                    <li><a href="contact.html">FAQs</a></li>
+                    <li><a href="/assets/pdf/privacy-policy.pdf.pdf">Privacy Policy</a></li>
+                    <li><a href="/assets/pdf/terms-of-service.pdf.pdf">Terms of Services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-office">
+                <h5>Head Office</h5>
+                <p><i class="fa-solid fa-location-dot"></i>5th Floor, UBN Regional Office,<br>Bank Road, Dugbe, Ibadan, Oyo State</p>
+                <p><i class="fa-brands fa-whatsapp"></i>+234 701 122 2247</p>
+                <p><i class="fa-solid fa-envelope"></i>info@blessedlolizeinvestment.com</p>
+            </div>
+
+            <div class="footer-office">
+                <h5>Ilorin Office</h5>
+                <p><i class="fa-solid fa-location-dot"></i>3rd Floor, NICON Building,<br>232 Ibrahim Taiwo Road, Ilorin, Kwara State</p>
+                <p><i class="fa-solid fa-phone"></i>+234 701 122 2245</p>
+                <p><i class="fa-brands fa-whatsapp"></i>+234 911 090 0001</p>
+                <p><i class="fa-solid fa-envelope"></i>info@blessedlolizeinvestment.com</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Blessed Lolize Investment. All rights reserved.
+        </div>
+    </footer>
+    <script src="home.js"></script>
+</body>
+</html>
